@@ -63,6 +63,9 @@ public class Test {
         List<Customer> list = query.list();
         for (Customer customer:list
              ) {
+
+
+
             System.out.println(customer.toString());
         }
         tr.commit();
